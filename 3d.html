@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D</title>
+</head>
+<body>
+    <div class="header_container">
+        <div class="primary_menu">
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="services.html">Services</a>
+                <a href="3d.html">3D</a>
+                <a href="contact.html">Contact Me</a>
+            </ul>
+        </div>
+    </div>
+    <div id="three-d">
+        <h1>3D</h1>
+        <p>Explore my 3D projects and visualizations.</p>
+        <ul>
+            <li>3D Modeling</li>
+            <li>3D Animation</li>
+            <li>Interactive 3D Experiences</li>
+            <li>Visualization Services</li>
+        </ul>
+    </div>
+     <model-viewer
+     src="model2.glb" 
+    alt="3D Product" 
+    ar 
+    auto-rotate 
+    camera-controls 
+    shadow-intensity="1"
+    skybox-image="https://modelviewer.dev/shared-assets/environments/aircraft_workshop_01_1k.hdr"
+    style="width: 600px; height: 500px;">
+</model-viewer>
+<h3>you need internet connecction for this for 3D model to work</h3>
+    <script type="module" src="https://unpkg.com/@google/model-viewer@latest/dist/model-viewer.min.js"></script>
+    <h3>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZEJPV3QQX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-MZEJPV3QQX');
+        </script>
+    
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MZEJPV3QQX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MZEJPV3QQX');
+    </script>
+    
+</body>
+</html>
